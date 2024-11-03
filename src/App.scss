@@ -1,0 +1,230 @@
+@import './scss/bootstrap';
+@import './scss//screenLoader';
+@import './scss/landing';
+@import './scss/auth';
+@import './scss/footer';
+@import './scss/navbar';
+@import './scss/service';
+@import './scss/heroHeader';
+@import './scss/foodMenu';
+
+$pColor: #D4B996FF;
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;    
+}
+
+// overall font setting
+.ff-secondary {
+    font-family: 'Pacifico', cursive;
+    font-size: 28px
+}
+.fw-medium {
+    font-weight: 600 !important;
+}
+.fw-semi-bold {
+    font-weight: 700 !important;
+}
+
+
+// booking card
+.booking-card{
+    box-shadow: 0 0 45px #A07855FF;
+    transition: .5s;
+}
+
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: $pColor;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: $pColor;
+}
+
+.section-title.text-start::before,
+.section-title.text-end::after {
+    display: none;
+}
+
+.about-name-project{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+// testiminial heading
+.testimonial-heading{
+    font-family: 'Lato';
+}
+
+
+// order
+.order-heading{
+    font-family: 'Lato';
+}
+.custom-input-field-antd:hover{
+    border-color: $pColor !important; 
+}
+.custom-input-field-antd:active{
+    border-color: $pColor !important;
+}
+.custom-input-field-antd:focus{
+    border-color: $pColor !important;
+}
+.confirm-order:hover{
+    border-color:  $pColor !important;
+    color: $pColor !important;
+}
+@media (max-width: 570px) {
+    .order-confirm-div{
+        width: 100% !important;
+    }
+   .order-confirm-tag{
+        text-align: center !important;
+        margin-top: 25px !important;
+   }
+}
+
+// dashboard
+.card-dashboard-home{
+    max-width: 450px;
+    box-shadow: 0 0 45px#A07855FF;
+    transition: .5s;
+}
+
+
+// profile section
+
+.profile-card-menu {
+    display: inline-block; // Ensure transform works correctly
+    transition: all 0.3s ease-in-out; // Smooth transition for both color and movement
+  
+    &:hover {
+      color: #A07855FF; // Change text color on hover
+      transform: translateY(-3px); // Move text slightly upward
+    }
+  }
+
+
+
+/* Custom style for the Ant Design Carousel dots */
+.custom-carousel .slick-dots li button {
+    background-color: #A07855FF; /* Default dot color */
+    width: 16px; /* Increase dot width */
+    height: 16px; /* Increase dot height */
+    border-radius: 50%; /* Make dots circular */
+  }
+  
+  .custom-carousel .slick-dots li.slick-active button {
+$pColor:#A07855FF ;
+    background-color: #A07855FF; /* Active dot color */
+    width: 20px; /* Active dot width */
+    height: 20px; /* Active dot height */
+  }
+  
+  /* Change the position and height of the dot bar container */
+  .custom-carousel .slick-dots {
+    bottom: 10px; /* Change this value to adjust the vertical position of the dot bar */
+    height: 30px; /* Set the height of the dot bar */
+  }
+  
+
+
+
+
+  .profile-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.profile-img-container {
+    position: relative !important; 
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.profile-picture, .profile-picture-icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 3px solid #706f6f;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    object-fit: cover;
+    object-position: center;  
+    overflow: hidden;
+    image-rendering: crisp-edges;
+    
+}
+
+.profile-picture-icon {
+    font-size: 100px !important; /* Icon size */
+}
+
+.username {
+    font-size: 34px !important;
+    margin-bottom: 10px;
+}
+
+.bio {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.edit-icon {
+    position: absolute;
+    bottom: 13px; 
+    right: 15px; 
+    background-color: #fff;
+    background: transparent !important;
+    cursor: pointer;
+}
+
+.edit-icon i {
+    font-size: 20px;
+}
+
+/* Hide the actual file input */
+.file-input {
+    display: none;
+}
+.profile-btn{
+    width: 200px !important;
+}
+
+
+
+.update-btn:hover{
+    border-color: $pColor !important;
+    color: $pColor !important;
+}

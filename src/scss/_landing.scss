@@ -1,0 +1,140 @@
+.landing {
+    height: 100vh;
+    position: relative;
+}
+
+.wave-big-screen {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.wave-small-screen {
+    width: 100%;
+    height: 30%;
+    display: none;
+}
+
+.image-wrapper {
+    position: absolute;
+    top: 10%;
+    right: 14%;
+    height: 480px;
+}
+
+.pasta-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.main-heading {
+    margin-left: 10%;
+    position: absolute;
+    top: 28%;
+    left: auto;
+    font-size: 58px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600
+}
+
+.main-sub-heading {
+    position: absolute;
+    top: 38%;
+    margin-left: 12%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.main-description {
+    position: absolute;
+    top: 48%;
+    margin-left: 10%;
+    width: 45%;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Poppins';
+}
+
+.btn-products {
+    position: absolute;
+    margin-left: 20%;
+    top: 70%;
+    left: auto;
+
+}
+
+.btn-products span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+
+}
+
+.btn-products:hover {
+    background-color:#A07855FF;
+    color: #fff;
+}
+
+.btn-products span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.btn-products:hover span {
+    padding-right: 15px;
+}
+
+.btn-products:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+@media (max-width: 786px) {
+    .image-wrapper {
+        right: 5%;
+    }
+}
+
+@media (max-width: 576px) {
+    .wave-big-screen {
+        display: none;
+    }
+
+    .wave-small-screen {
+        display: block;
+    }
+
+    .image-wrapper {
+        top: -5%;
+        height: 260px;
+        right: 22%;
+
+    }
+
+    .main-heading {
+        top: 30%;
+        margin-left: 12%;
+    }
+
+    .main-sub-heading {
+        top: 40%;
+        margin-left: 22%;
+    }
+
+    .main-description {
+        top: 45%;
+        width: 85%;
+        // margin-left: 14%;
+    }
+
+    .btn-products {
+        top: 80%;
+        margin-left: 28%;
+    }
+}

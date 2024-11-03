@@ -1,0 +1,27 @@
+.menu-heading{
+    font-family: 'Lato';
+}
+.nav-pills .nav-item .active {
+    border-bottom: 2px solid $pColor;
+    text-decoration: none;
+}
+.nav-pills .nav-item .nav-link {
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .nav-pills .nav-item .nav-menu {
+    text-decoration: none; /* Remove underline for active link */
+  }
+
+
+  .btn-constant-height {
+    height: 34px !important;
+    line-height: 34px !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+.add-btn{
+    height: 34px !important;
+}

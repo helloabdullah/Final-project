@@ -1,0 +1,33 @@
+$pColor: #A07855FF;
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#A07855FF;
+  /* Adjust opacity and color as needed */
+  z-index: 1;
+}
+
+form {
+  position: relative;
+  z-index: 2;
+}
+
+.register-btn:hover {
+  color: $pColor !important;
+  border-color: $pColor !important;
+}
+
+.login-btn:hover {
+  color: $pColor !important;
+  border-color: $pColor !important;
+}
+
+@media (max-width: 440px) {
+  .login-register-card {
+    width: 330px;
+  }
+}

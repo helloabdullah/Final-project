@@ -1,0 +1,211 @@
+[
+    {
+        "category": "pizza", 
+        "name": "Margherita",
+        "ingredients": "Tomato Sauce, Mozzarella, Basil",
+        "price": 8.99,
+        "pic": "pizza1"
+    },
+    {
+        "category": "pizza",
+        "name": "Pepperoni",
+        "ingredients": "Tomato Sauce, Mozzarella, Pepperoni",
+        "price": 10.99,
+        "pic": "pizza2"
+    },
+    {
+        "category": "pizza",
+        "name": "BBQ Chicken",
+        "ingredients": "BBQ Sauce, Mozzarella, Chicken, Red Onions, Cilantro",
+        "price": 12.99,
+        "pic": "pizza1"
+    },
+    {
+        "category": "pizza",
+        "name": "Hawaiian",
+        "ingredients": "Tomato Sauce, Mozzarella, Ham, Pineapple",
+        "price": 11.99,
+        "pic": "pizza2"
+    },
+    {
+        "category": "pizza",
+        "name": "Veggie",
+        "ingredients": "Tomato Sauce, Mozzarella, Bell Peppers, Olives, Mushrooms, Onions",
+        "price": 9.99,
+        "pic": "pizza1"
+    },
+    {
+        "category": "pizza",
+        "name": "Meat Lovers",
+        "ingredients": "Tomato Sauce, Mozzarella, Pepperoni, Sausage, Bacon, Ham",
+        "price": 13.99,
+        "pic": "pizza2"
+    },
+    {
+        "category": "pizza",
+        "name": "Four Cheese",
+        "ingredients": "Tomato Sauce, Mozzarella, Parmesan, Gorgonzola, Ricotta",
+        "price": 11.49,
+        "pic": "pizza1"
+    },
+    {
+        "category": "pizza",
+        "name": "Buffalo Chicken",
+        "ingredients": "Buffalo Sauce, Mozzarella, Chicken, Blue Cheese, Celery",
+        "price": 12.49,
+        "pic": "pizza2"
+    },
+    {
+        "category": "pizza",
+        "name": "Supreme",
+        "ingredients": "Mozzarella, Pepperoni, Bell Peppers, Olives, Mushrooms",
+        "price": 14.99,
+        "pic": "pizza1"
+    },
+    {
+        "category": "pizza",
+        "name": "Mushroom",
+        "ingredients": "Tomato Sauce, Mozzarella, Mushrooms, Garlic, Parsley",
+        "price": 9.49,
+        "pic": "pizza2"
+    },
+    {
+        "category": "burger",
+        "name": "Classic Burger",
+        "ingredients": "Beef Patty, Lettuce, Tomato, Pickles, Onions, Ketchup, Mustard",
+        "price": 5.49,
+        "pic": "burger1"
+    },
+    {
+        "category": "burger",
+        "name": "Cheeseburger",
+        "ingredients": "Beef Patty, Cheddar Cheese, Lettuce, Tomato, Pickles, Onions, Ketchup, Mustard",
+        "price": 4.49,
+        "pic": "burger2"
+    },
+    {
+        "category": "burger",
+        "name": "Bacon Burger",
+        "ingredients": "Beef Patty, Bacon, Lettuce, Tomato, Pickles, Onions, Ketchup, Mustard",
+        "price": 3.49,
+        "pic": "burger3"
+    },
+    {
+        "category": "burger",
+        "name": "BBQ Burger",
+        "ingredients": "Beef Patty, Cheddar Cheese, Bacon, Onion Rings, BBQ Sauce",
+        "price": 4.49,
+        "pic": "burger1"
+    },
+    {
+        "category": "burger",
+        "name": "Mushroom Swiss Burger",
+        "ingredients": "Beef Patty, Swiss Cheese, Sautéed Mushrooms, Lettuce, Tomato, Pickles, Onions",
+        "price": 5.99,
+        "pic": "burger2"
+    },
+    {
+        "category": "burger",
+        "name": "Veggie Burger",
+        "ingredients": "Veggie Patty, Lettuce, Tomato, Pickles, Onions, Avocado, Vegan Mayo",
+        "price": 2.99,
+        "pic": "burger3"
+    },
+    {
+        "category": "burger",
+        "name": "Spicy Burger",
+        "ingredients": "Beef Patty, Pepper Jack Cheese, Jalapenos, Lettuce, Tomato, Spicy Mayo",
+        "price": 3.99,
+        "pic": "burger1"
+    },
+    {
+        "category": "burger",
+        "name": "Chicken Burger",
+        "ingredients": "Grilled Chicken Breast, Lettuce, Tomato, Pickles, Onions, Mayo",
+        "price": 3.99,
+        "pic": "burger2"
+    },
+    {
+        "category": "burger",
+        "name": "Fish Burger",
+        "ingredients": "Fried Fish Fillet, Lettuce, Tomato, Pickles, Tartar Sauce",
+        "price": 4.49,
+        "pic": "burger3"
+    },
+    {
+        "category": "burger",
+        "name": "Blue Cheese Burger",
+        "ingredients": "Beef Patty, Blue Cheese, Lettuce, Tomato, Pickles, Onions, Mayo",
+        "price": 7.49,
+        "pic": "burger1"
+    },
+    {
+        "category": "apetz",
+        "name": "Mozzarella Sticks",
+        "ingredients": "Mozzarella Cheese, Bread Crumbs, Marinara Sauce",
+        "price": 5.49,
+        "pic": "apetz1"
+    },
+    {
+        "category": "apetz",
+        "name": "Chicken Wings",
+        "ingredients": "Chicken Wings, Hot Sauce, Celery, Blue Cheese Dressing",
+        "price": 5.99,
+        "pic": "apetz2"
+    },
+    {
+        "category": "apetz",
+        "name": "Garlic Bread",
+        "ingredients": "Bread, Garlic Butter, Parmesan Cheese",
+        "price": 4.99,
+        "pic": "apetz3"
+    },
+    {
+        "category": "apetz",
+        "name": "Onion Rings",
+        "ingredients": "Onions, Flour, Bread Crumbs, Ketchup",
+        "price": 2.49,
+        "pic": "apetz1"
+    },
+    {
+        "name": "Stuffed Mushrooms",
+        "ingredients": "Mushrooms, Cream Cheese, Garlic, Herbs",
+        "price": 7.99,
+        "pic": "apetz2"
+    },
+    {
+        "category": "apetz",
+        "name": "Shrimp Cocktail",
+        "ingredients": "Shrimp, Cocktail Sauce, Lemon",
+        "price": 6.99,
+        "pic": "apetz3"
+    },
+    {
+        "category": "apetz",
+        "name": "Bruschetta",
+        "ingredients": "Tomatoes, Basil, Garlic, Olive Oil, Balsamic Vinegar, Bread",
+        "price": 5.99,
+        "pic": "apetz1"
+    },
+    {
+        "category": "apetz",
+        "name": "Nachos",
+        "ingredients": "Tortilla Chips, Cheddar Cheese, Jalapenos, Salsa, Sour Cream",
+        "price": 6.49,
+        "pic": "apetz2"
+    },
+    {
+        "category": "apetz",
+        "name": "Spinach Artichoke Dip",
+        "ingredients": "Spinach, Artichokes, Cream Cheese, Parmesan Cheese, Tortilla Chips",
+        "price": 7.49,
+        "pic": "apetz3"
+    },
+    {
+        "category": "apetz",
+        "name": "Fried Calamari",
+        "ingredients": "Calamari, Flour, Lemon, Marinara Sauce",
+        "price": 6.49,
+        "pic": "apetz1"
+    }
+]
